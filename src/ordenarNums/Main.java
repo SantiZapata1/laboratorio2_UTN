@@ -1,4 +1,4 @@
-package ordenarNums;
+package ordenarNums; //recien cuando comento esta linea me funciona en esta IDE
 import java.util.Scanner;
 
 public class Main {
