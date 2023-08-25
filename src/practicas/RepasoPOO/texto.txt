@@ -1,0 +1,2 @@
+Creamos una clase principal o padre llamada "planta" con los atributos nombre y edad, 2 constructores y el metodo toString() para dar datos del objeto.
+Por otro lado, en la subclase "hortaliza" que hereda de "planta" le agregamos el atributo "tipo", modificando su construtor y metodo toString().
