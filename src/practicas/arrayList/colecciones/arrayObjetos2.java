@@ -17,13 +17,17 @@ public class arrayObjetos2 {
 
         //objetos animales
         Animal animal1 = new Animal("animal1", 5, duenio1);
+        Animal animal2 = new Animal("animal2", 7, duenio1);
         Animal perro1 = new Perro("perro1", 5, duenio2,"pitbull");
         Animal gato1 = new Gato("gato1", 5, duenio3,"catu");
         
         //Usamos metodos para cargar veterinaria
         veterinaria1.agregarAnimal(animal1);
+        veterinaria1.agregarAnimal(animal2);
         veterinaria1.agregarAnimal(perro1);
         veterinaria1.agregarAnimal(gato1);
+
+        veterinaria1.eliminarAnimal(0);
 
         veterinaria1.returnArray();
 
@@ -47,11 +51,6 @@ class Veterinaria{
     }
     public int cantidadAnimales(){
         return animales.size();
-    }
-    public void mostrarAnimales(){
-        for(Animal ani:animales){
-            System.out.println(" "+ani.getNombre()+" "+ani.getEdad());
-        }
     }
     public void returnArray(){
 
