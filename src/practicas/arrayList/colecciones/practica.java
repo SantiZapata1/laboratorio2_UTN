@@ -1,28 +1,45 @@
-//package practicas.arrayList.colecciones;
-
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class practica {
 
+    static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        // Crear un ArrayList de cadenas
-        ArrayList<String> nombres = new ArrayList<>();
 
-        // Agregar elementos al ArrayList
-        nombres.add("Alice");
-        nombres.add("Bob");
-        nombres.add("Charlie");
+        ArrayList<Integer> numeros = new ArrayList<>();
 
-        // Acceder a elementos por índice
-        String primerNombre = nombres.get(0);
-        System.out.println("Primer nombre: " + primerNombre);
+        numeros.add(5);
+        numeros.add(3);
 
-        // Iterar a través del ArrayList
-        for (String nombre : nombres) {
-            System.out.println(nombre);
+        System.out.println(" ");
+        System.out.println("Contenido inicial del ArrayList: " + numeros);
+
+        System.out.print("Desea ingresar numeros al ArrayList? si/no:  ");
+        String respuesta = scanner.nextLine();
+
+        if (respuesta.equals("si")) {
+
+            System.out.print("¿Cuantos numeros desea ingresar? ");
+            int cantidad = scanner.nextInt();
+
+            cargarArray(cantidad, numeros);
+            System.out.println("Contenido posterior del ArrayList: " + numeros);
+        } else {
+            System.out.println("Ok, no se agregarán números al arrayList ");
+        }
+
+    }
+
+    //procedimiento para cargar arrayList
+    public static void cargarArray(int cantidad, ArrayList<Integer> numeros) {
+        int lectura;
+
+        for (int i = 0; i < cantidad; i++) {
+            System.out.print("Ingrese el número " + (i + 1) + ": ");
+            lectura = scanner.nextInt();
+            numeros.add(lectura);
         }
     }
 }
 
-    
 
