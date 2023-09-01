@@ -1,0 +1,4 @@
+Varias cosas de la consigna enviada no me quedaron claras de como habia que resolver el ejercicio, 
+de todas formas trate de resolverlo de la forma mas logica posible, respetando los puntos dados. Saludos :)
+
+(no llegue con las excepciones)

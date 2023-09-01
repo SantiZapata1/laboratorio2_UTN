@@ -1,3 +1,4 @@
+package practicas.arrayList.colecciones;
 import java.util.ArrayList;
 import java.util.Scanner;
 
