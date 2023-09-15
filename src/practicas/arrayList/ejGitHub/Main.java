@@ -80,7 +80,7 @@ class Curso {
         }
     }
 }
-
+/*
 class Main {
     public static void main(String[] args) {
         // Crear una instancia de Curso
@@ -103,3 +103,4 @@ class Main {
     }
 }
 
+*/

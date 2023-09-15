@@ -1,3 +1,5 @@
+package practicas.scanner;
+
 import java.util.Scanner;
 public class ScannerExample {
 

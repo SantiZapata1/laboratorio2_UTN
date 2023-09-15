@@ -103,16 +103,6 @@ public class Electrodomestico{
 
         }
 
-        if(this.peso){
-
-        }else if(){
-
-        }else if(){
-
-        }else if(){
-
-        }
-
 
         return precioFinal;
 

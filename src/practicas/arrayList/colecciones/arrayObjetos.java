@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*
 public class arrayObjetos {
 
     static Scanner scanner = new Scanner(System.in);
@@ -34,8 +34,8 @@ public class arrayObjetos {
 
     }
     
-}
-
+}*/
+/*
 class Animal{
 
     //atributos
@@ -99,4 +99,4 @@ class Gato extends Animal{
         return super.makeNoise()+" miau" ;
     }
 
-} 
+} */
