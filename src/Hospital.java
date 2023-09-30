@@ -338,7 +338,7 @@ interface Informacion{
 
 class Paciente extends Persona implements Informacion, Serializable{
 
-    Scanner scanner = new Scanner(System.in);
+    //Scanner scanner = new Scanner(System.in);
 
 
     //atributos
